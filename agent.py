@@ -6,7 +6,6 @@ from livekit.plugins import (
     noise_cancellation,
 )
 from prompt import AGENT_INSTRUCTION, AGENT_RESPONSE_INSTRUCTION
-
 load_dotenv(".env")
 
 class Assistant(Agent):
