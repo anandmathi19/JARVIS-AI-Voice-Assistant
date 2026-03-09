@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Jarvis AI</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+<script src="https://unpkg.com/livekit-client/dist/livekit-client.umd.js"></script>
+
+</head>
+
+<body>
+
+<canvas id="stars"></canvas>
+
+<div id="container">
+
+    <!-- LEFT SIDEBAR -->
+    <div id="sidebar">
+
+        <h2>MEMORY</h2>
+
+        <div id="historyList"></div>
+
+    </div>
+
+
+    <!-- CENTER MAIN -->
+    <div id="main">
+
+        <h1>JARVIS</h1>
+
+        <div id="reactor">
+
+            <div class="ring r1"></div>
+            <div class="ring r2"></div>
+            <div class="ring r3"></div>
+
+        </div>
+
+        <div id="state">IDLE</div>
+
+        <div class="controls">
+
+            <button id="start">START</button>
+            <button id="stop">STOP</button>
+
+        </div>
+
+        <div id="visualizer"></div>
+
+    </div>
+
+
+    <!-- RIGHT HUD -->
+    <div id="hud">
+
+        <div class="panel">
+            TIME
+            <div id="clock"></div>
+        </div>
+
+        <div class="panel">
+            CPU
+            <div id="cpu"></div>
+        </div>
+
+        <div class="panel">
+            RAM
+            <div id="ram"></div>
+        </div>
+
+        <div class="panel">
+            STATUS
+            <div id="status"></div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- CHAT WINDOW -->
+
+<div id="chat"></div>
+
+<script src="/static/app.js"></script>
+
+</body>
+
+</html>
