@@ -60,7 +60,9 @@ pip install -r requirements.txt
 4️⃣ Run the application
 
 ```
-python main.py
+Terminal - 1 : python agent.py dev
+Terminal - 2 : python app.py
+
 ```
 
 5️⃣ Open the browser and go to
